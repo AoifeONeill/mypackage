@@ -1,5 +1,5 @@
 getwd()
-usethis::use_git()
+#usethis::use_git()
 library(usethis)
 library(devtools)
 library(tidyverse)
@@ -7,7 +7,7 @@ library(pkgdown)
 library(testthat)
 library(roxygen2)
 
-
+?export
 height <- rnorm(100, mean = 10, sd = 0.8) %>%
   round(4)
 
