@@ -35,3 +35,5 @@ usethis::edit_r_environ()
 .Renviron
 library(devtools)
 use_github()
+
+?sum_squares
