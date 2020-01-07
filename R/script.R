@@ -30,3 +30,8 @@ use_mit_license("Aoife O'Neill")
 
 
 use_github()
+browse_github_token()
+usethis::edit_r_environ()
+.Renviron
+library(devtools)
+use_github()
