@@ -11,11 +11,15 @@ library(roxygen2)
 height <- rnorm(100, mean = 10, sd = 0.8) %>%
   round(4)
 
+
 sum((height - mean(height))^2)
 
 sum_squares <- function(v) {
   sum((height - mean(height))^2)
 }
+
+
+height/sqrt(length(height))
 
 sum_squares (rnorm(10))
 
@@ -37,5 +41,8 @@ library(devtools)
 use_github()
 
 ?sum_squares
+
+check()
+
 
 document()
