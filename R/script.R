@@ -37,3 +37,5 @@ library(devtools)
 use_github()
 
 ?sum_squares
+
+document()
